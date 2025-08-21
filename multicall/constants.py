@@ -82,6 +82,7 @@ class Network(IntEnum):
     GodwokenTestnet = 71401
     Godwoken = 71402
     Mumbai = 80001
+    Berachain = 80094
     ArbitrumRinkeby = 421611
     ArbitrumGorli = 421613
     Sepolia = 11155111
@@ -180,6 +181,7 @@ MULTICALL3_ADDRESSES: Final[Dict[int, ChecksumAddress]] = {
     Network.GodwokenTestnet: "0xcA11bde05977b3631167028862bE2a173976CA11",
     Network.Godwoken: "0xcA11bde05977b3631167028862bE2a173976CA11",
     Network.Mumbai: "0xcA11bde05977b3631167028862bE2a173976CA11",
+    Network.Berachain: "0xcA11bde05977b3631167028862bE2a173976CA11",
     Network.ArbitrumRinkeby: "0xcA11bde05977b3631167028862bE2a173976CA11",
     Network.ArbitrumGorli: "0xcA11bde05977b3631167028862bE2a173976CA11",
     Network.Sepolia: "0xcA11bde05977b3631167028862bE2a173976CA11",
